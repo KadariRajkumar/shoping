@@ -1,0 +1,33 @@
+
+<h4>Product Form</h4>
+
+
+<%= form_for :product, :url => {:controller=>'productinfo' ,:action => 'create' } do |form| %>
+  
+
+  <div class="field">
+    <%= form.label :Name %>
+    <%= form.text_field :name %>
+  </div>
+
+  <div class="field">
+    <%= form.label :Price %>
+    <%= form.text_field :price %>
+  </div>
+  <div class="field">
+    <%= form.label :Instoke %>
+    <%= form.text_field :active %>
+  </div>
+  <div class="field">
+    <%= form.label :Description %>
+    <%= form.text_field:desc %>
+  </div>
+  <div class="field">
+    <%= form.label :Image %>
+    <%= form.file_field:image %>
+  </div>
+
+  <div class="actions">
+    <%= form.submit %>
+  </div>
+<% end %>
