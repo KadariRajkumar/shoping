@@ -12,7 +12,7 @@ gem "paperclip", "~> 6.0.0"
 # Use mysql as the database for Active Record
 gem 'mysql2', '>= 0.3.18', '< 0.6.0'
 # Use Puma as the app server
-gem 'puma', '~> 3.7'
+gem 'puma', '~> 4.3'
 gem 'bootstrap', '~> 4.3.1'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
